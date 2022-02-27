@@ -1,67 +1,245 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>パパッと変わる性格診断</title>
+  <title>フレイルチェック『基本チェックリスト』</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
+
 <body>
 </script>
-
 <div class="choose_box">
   <div class="app-theme">
-    <p>パパッと画面が変わる性格診断アプリ(全5問)</p>
+    <p>『基本チェックリスト』で簡単フレイルチェック</p>
   </div>
-
 
  <!-- ここから５つ質問を記述 -->
   <!-- 質問1 -->
   <div id="q_01" class="fit">
-    <p>質問1: あなたは普段</p>
+    <p>1. バスや電車で、一人で外出していますか？</p>
     <ul>
-      <li><a class="btn" href="#q_02" data-value="a">話すペースが速い</a></li>
-      <li><a class="btn" href="#q_02" data-value="b">話すペースがゆっくり</a></li>
+      <li><a class="btn" href="#q_02" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_02" data-value="b">いいえ</a></li>
     </ul>
   </div>
 
   <!-- 質問2 -->
   <div id="q_02" style="display: none;">
-    <p>質問2:あなたは普段、相手との会話で</p>
+    <p>2. 日用品の買い物をしていますか？</p>
     <ul>
-      <li><a class="btn" href="#q_03" data-value="a">間をとらずに話す</a></li>
-      <li><a class="btn" href="#q_03" data-value="b">間をとりながら話す</a></li>
+      <li><a class="btn" href="#q_03" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_03" data-value="b">いいえ</a></li>
     </ul>
   </div>
 
   <!-- 質問3 -->
   <div id="q_03" style="display: none;">
-    <p>質問3:あなたの話し方は</p>
+    <p>3. 預貯金の出し入れをしていますか？</p>
     <ul>
-      <li><a class="btn" href="#q_04" data-value="a">語尾がキッパリ</a></li>
-      <li><a class="btn" href="#q_04" data-value="b">語尾がソフト</a></li>
+      <li><a class="btn" href="#q_04" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_04" data-value="b">いいえ</a></li>
     </ul>
   </div>
 
   <!-- 質問4 -->
   <div id="q_04" style="display: none;">
-    <p>質問4:あなたは普段声が</p>
+    <p>4. 友人の家を訪ねていますか？</p>
     <ul>
-      <li><a class="btn" href="#q_05" data-value="a">大きめ</a></li>
-      <li><a class="btn" href="#q_05" data-value="b">小さめ</a></li>
+      <li><a class="btn" href="#q_05" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_05" data-value="b">いいえ</a></li>
     </ul>
   </div>
 
   <!-- 質問5 -->
   <div id="q_05" style="display: none;">
-    <p>質問5:意見を求められた時、あなたは</p>
+    <p>5. 家族や友人の相談にのっていますか？</p>
     <ul>
-      <li><a class="btn end" data-value="a">自分から口火を切る</a></li>
-      <li><a class="btn end" data-value="b">後から発言する</a></li>
+      <li><a class="btn" href="#q_06" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_06" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問6 -->
+  <div id="q_06" style="display: none;">
+    <p>6. 階段を手すりや壁をつたわらずに昇っていますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_07" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_07" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問7 -->
+  <div id="q_07" style="display: none;">
+    <p>7. 椅子に座った状態から何もつかまらずに立ち上がっていますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_08" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_08" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問8 -->
+  <div id="q_08" style="display: none;">
+    <p>8. 15分位続けて歩いていますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_09" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_09" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問9 -->
+  <div id="q_09" style="display: none;">
+    <p>9. この1年間に転んだことがありますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_10" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_10" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問10 -->
+  <div id="q_10" style="display: none;">
+    <p>10. 転倒に対する不安は大きいですか？</p>
+    <ul>
+      <li><a class="btn" href="#q_11" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_11" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問11 -->
+  <div id="q_11" style="display: none;">
+    <p>11. 6ヶ月間で2kgから3kg以上の体重減少がありましたか？</p>
+    <ul>
+      <li><a class="btn" href="#q_12" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_12" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問12 -->
+  <div id="q_12" style="display: none;">
+    <p>12. BMI（BMI=体重(kg)÷身長(m)÷身長(m)）は18.5未満ですか？</p>
+    <ul>
+      <li><a class="btn" href="#q_13" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_13" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問13 -->
+  <div id="q_13" style="display: none;">
+    <p>13. 半年前に比べて固いものが食べにくくなりましたか？</p>
+    <ul>
+      <li><a class="btn" href="#q_14" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_14" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問14 -->
+  <div id="q_14" style="display: none;">
+    <p>14. お茶や汁物等でむせることがありますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_15" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_15" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問15 -->
+  <div id="q_15" style="display: none;">
+    <p>15. 口の渇きが気になりますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_16" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_16" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問16 -->
+  <div id="q_16" style="display: none;">
+    <p>16. 週に1回以上は外出していますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_17" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_17" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問17 -->
+  <div id="q_17" style="display: none;">
+    <p>17. 昨年と比べて外出の回数が減っていますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_18" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_18" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問18 -->
+  <div id="q_18" style="display: none;">
+    <p>18. 周りの人から｢いつも同じ事を聞く｣などの物忘れがあると言われますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_19" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_19" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問19 -->
+  <div id="q_19" style="display: none;">
+    <p>19. 自分で電話番号を調べて、電話をかけることをしていますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_20" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_20" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問20 -->
+  <div id="q_20" style="display: none;">
+    <p>20. 今日が何月何日かわからない時がありますか？</p>
+    <ul>
+      <li><a class="btn" href="#q_21" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_21" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問21 -->
+  <div id="q_21" style="display: none;">
+    <p>21. （ここ2週間）毎日の生活に充実感がない</p>
+    <ul>
+      <li><a class="btn" href="#q_22" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_22" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問22 -->
+  <div id="q_22" style="display: none;">
+    <p>22. （ここ2週間）これまで楽しんでやれていたことが楽しめなくなった</p>
+    <ul>
+      <li><a class="btn" href="#q_23" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_23" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問23 -->
+  <div id="q_23" style="display: none;">
+    <p>23. （ここ2週間）以前は楽にできていたことが今はおっくうに感じられる</p>
+    <ul>
+      <li><a class="btn" href="#q_24" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_24" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問24 -->
+  <div id="q_24" style="display: none;">
+    <p>24. （ここ2週間）自分が役に立つ人間だと思えない</p>
+    <ul>
+      <li><a class="btn" href="#q_25" data-value="a">はい</a></li>
+      <li><a class="btn" href="#q_25" data-value="b">いいえ</a></li>
+    </ul>
+  </div>
+
+  <!-- 質問25 -->
+  <div id="q_25" style="display: none;">
+    <p>25. （ここ2週間）わけもなく疲れたような感じがする</p>
+    <ul>
+      <li><a class="btn end" data-value="a">はい</a></li>
+      <li><a class="btn end" data-value="b">いいえ</a></li>
     </ul>
   </div>
 
 <!-- ここから以下回答 -->
-<!-- この辺に回答を記述 -->
   <!-- 回答の答え1 -->
   <div id="answer_01" class="result" style="display: none;">
     <div class="result_theme ">
@@ -107,10 +285,8 @@
    </div>
 </div>
 
-
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="index.js"></script>
+
 </body>
 </html>
